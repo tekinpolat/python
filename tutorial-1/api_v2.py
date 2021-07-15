@@ -6,6 +6,7 @@ print(response)
 print(response.text)
 
 
+name="tekin";age=21
 
 #requests
 #beautifulsoup
