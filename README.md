@@ -17,3 +17,9 @@
 
 ## loop  --> for, while
 ## functions
+
+
+
+## Kaynakça
+    - https://scrapy.org/
+    - https://www.haydarcan.com/camel-case-snake-case-hungarian-notation/
