@@ -20,7 +20,7 @@ class LonelPlanetSpider(scrapy.Spider):
             
             yield { 'top_choice' : top_choice, 'title':title, 'desc': description, 'link':link}
             
-        for next_page in response.css('div.jsx-3750009544.ScrollPill.jsx-1214509586.directionPill.next.mobileWrap'):
+        for next_page in response.css('svg.jsx-2420936032.lm-icon.jsx-3750009544'):
             print("next page")
             yield response.follow(next_page, self.parse)
             
