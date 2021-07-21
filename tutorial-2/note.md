@@ -1,8 +1,8 @@
 pip install scrapy
-scrapy runspider filename.py
-scrapy runspider filename.py -o filename.json
-scrapy runspider filename.py -o filename.csv
-scrapy runspider filename.py -o filename.xml
+-- scrapy runspider filename.py
+-- scrapy runspider filename.py -o filename.json
+-- scrapy runspider filename.py -o filename.csv
+-- scrapy runspider filename.py -o filename.xml
 
 
 ## OOP
